@@ -1,0 +1,44 @@
+.nav-bar{
+    display: flex;
+    background-color: rgb(31, 31, 190);
+    /* position: fixed; */
+    justify-content: space-between;
+   
+    top: 0;
+/* z-index: 1; */
+    width: 100%;
+    padding:20px 20px 0px 20px;
+}
+.navbar1 img{
+height: 50px;
+width: 50px;
+}
+.navul{
+    display: flex;
+}
+.navul li{
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    /* font-weight: 500; */
+    position: relative;
+}
+.navul h6{
+    margin: 20px;
+    list-style-type: none;
+    font-weight: 500;
+    color: white;
+    position: relative;
+}
+.navul li:hover::before{
+    margin-top: 25px;
+    height: 3px;
+    transition: 2s;
+    font-weight: 500;
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    border: 2px solid white;
+    content: "";
+}
